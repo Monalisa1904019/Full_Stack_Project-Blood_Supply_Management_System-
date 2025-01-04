@@ -1,0 +1,59 @@
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-item .btn {
+    margin: 0 10px;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+/* Main Body */
+.main-body {
+    padding: 50px 0;
+}
+
+.main-image {
+    border-radius: 10px;
+    max-height: 400px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.text-content {
+    flex: 1;
+    text-align: left;
+}
+
+h1 {
+    color: #b71c1c; /* Dark red */
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Footer */
+.footer {
+    background-color: #b71c1c; /* Dark red */
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Navbar button style */
+.navbar-nav .nav-item .btn {
+    margin-right: 15px; /* Ensure proper spacing between buttons */
+}
+
+/* Ensure the footer height is increased */
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px; /* Increased footer height */
+}
